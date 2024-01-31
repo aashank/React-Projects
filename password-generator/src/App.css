@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.passwordConatiner {
+  width: 650px;
+  margin: auto;
+  height: 450px;
+  background-color: #242424;
+  color: white;
+  border-radius: 4px;
+}
