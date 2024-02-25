@@ -1,0 +1,28 @@
+.characterLengthContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 2rem;
+}
+
+.characterLength {
+    font-size: 21px;
+    font-weight: 500;
+}
+
+.lengthStyling {
+    font-size: 21px;
+    font-weight: 600;
+}
+
+.rangeContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0rem 2rem;
+}
+
+.rangeInput {
+    width: 100%;
+}

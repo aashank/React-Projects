@@ -1,0 +1,16 @@
+.strengthContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 2rem;
+}
+
+.strengthTitle {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.strengthValue {
+    font-size: 16px;
+    font-weight: 500;
+}

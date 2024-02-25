@@ -1,15 +1,47 @@
+.welcomeText {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 3rem;
+}
+
 .container {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 70vh;
 }
 
-.passwordConatiner {
+.boxConatiner {
   width: 650px;
   margin: auto;
-  height: 450px;
+  height: fit-content;
   background-color: #242424;
   color: white;
   border-radius: 4px;
+  padding-bottom: 1rem;
+}
+
+.passwordCopyContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem 0rem 2rem;
+}
+
+.btnDesign {
+  background-color: rgb(3, 164, 140);
+  height: 35px;
+  width: 60px;
+  color: white;
+  font-size: 13px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.errorMessage {
+  padding: 0rem 2rem;
+  color: red;
 }

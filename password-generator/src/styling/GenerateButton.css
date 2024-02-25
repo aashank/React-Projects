@@ -1,0 +1,13 @@
+.generateButtonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.generateButton {
+    width: 100%;
+    font-size: 18px;
+    height: 45px;
+    letter-spacing: 0.3px;
+}
